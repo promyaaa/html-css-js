@@ -128,6 +128,11 @@ body {
     display: none;
 }
 
+.display span {
+    padding-top: 15px;
+    font-size: 15px;
+}
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
@@ -152,6 +157,9 @@ body {
 @media (max-width: 480px) {
     .display .pinToMatch {
         margin-left: 5px;
+    }
+    .display span {
+        font-size: 12px;
     }
     .left-section {
         border-right: none;
