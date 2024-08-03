@@ -21,9 +21,11 @@ document.addEventListener('DOMContentLoaded', function() {
         if (pinInput.value === secret) {
             notification.textContent = 'SUCCESS! YOU ARE AWESOME!!';
             notification.style.color = '#6cc788';
+            notification.style.display = 'block';
         } else {
             notification.textContent = 'SORRY! TRY AGAIN!!';
             notification.style.color = '#f44455';
+            notification.style.display = 'block';
         }
     }
 
