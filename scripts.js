@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     pinInput.addEventListener('input', function() {
         // Ensure the value is a string and limit to 6 digits
-        pinInput.value = pinInput.value.replace(/\D/g, '').substring(0, 6);
+        pinInput.value = pinInput.value.substring(0, 6);        
     });
 
     keys.forEach(key => {
