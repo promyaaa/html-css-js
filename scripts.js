@@ -17,8 +17,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function comparePin() {
-        console.log(secret)
-        console.log(pinInput.value)
 
         if (pinInput.value === secret) {
             notification.textContent = 'SUCCESS! YOU ARE AWESOME!!';
