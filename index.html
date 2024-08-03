@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Key Matcher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <button class="generate">Generate Secret Key</button>
+            <div id="secretKey">******</div>
+        </div>
+        <div class="right-section">
+            <div class="display">
+                <span>Enter PIN:</span>
+                <input type="text" id="pinToMatch" readonly>
+            </div>
+            <div class="keypad">
+                <button class="key" data-value="1">1</button>
+                <button class="key" data-value="2">2</button>
+                <button class="key" data-value="3">3</button>
+                <button class="key" data-value="4">4</button>
+                <button class="key" data-value="5">5</button>
+                <button class="key" data-value="6">6</button>
+                <button class="key" data-value="7">7</button>
+                <button class="key" data-value="8">8</button>
+                <button class="key" data-value="9">9</button>
+                <button class="key" data-value="0">0</button>
+                <button class="key" id="clear">Clear</button>
+                <button class="key" id="submit">Submit</button>
+            </div>
+            <div id="message-info"></div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
