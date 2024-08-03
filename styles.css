@@ -114,8 +114,8 @@ body {
     text-align: center;
     border-radius: 5px;
     margin-bottom: 20px;
-    width: 70%;
-    margin-left: 15px;
+    width: 71%;
+    margin-left: 13px;
     border: 1px solid #ccc;
 }
 
@@ -132,8 +132,13 @@ body {
     .container {
         flex-direction: column;
     }
+    .generate {
+        padding: 20px;
+        font-size: 20px;
+    }
     .left-section {
         border-right: none;
+        border-bottom: 1px solid #ccc;
     }
     .keypad {
         grid-template-columns: repeat(2, 1fr);
@@ -141,6 +146,9 @@ body {
 }
 
 @media (max-width: 480px) {
+    .display .pinToMatch {
+        margin-left: 5px;
+    }
     .left-section {
         border-right: none;
     }
@@ -153,8 +161,8 @@ body {
         font-size: 20px;
     }
     .generate {
-        padding: 8px 16px;
-        font-size: 14px;
+        padding: 10px 16px;
+        font-size: 15px;
     }
     #secret-key {
         font-size: 28px;
