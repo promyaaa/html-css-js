@@ -11,7 +11,7 @@ body {
 .container {
     display: flex;
     flex-direction: row;
-    background-color: #000;
+    background-color: #f0f0f0;
     color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -27,3 +27,102 @@ body {
     align-items: center;
     margin: 10px;
 }
+
+.left-section {
+    border-right: 2px solid #ccc;
+}
+
+.generate {
+    background-color: #0CC2AA;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.generate:hover {
+    background-color: #0bb69f;
+}
+
+#secret-key {
+    font-size: 32px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    color: #ccc;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+}
+
+.key {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+}
+
+.key.clear {
+    background-color: #fcc100;
+    color: #fff;
+    border: 1px solid #d59d04;
+}
+
+.key.submit {
+    background: #6CC788;
+    color: #fff;
+    border: 1px solid #60b078;
+}
+.key.clear:hover {
+    background-color: #d59d04;
+    
+}
+
+.key.submit:hover {
+    background: #60b078;
+}
+
+.key:hover {
+    background-color: #ccc;
+}
+
+.display {
+    display: flex;
+    color: black;
+}
+
+.display .pinToMatch {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 70%;
+    margin-left: 15px;
+    border: 1px solid #ccc;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* clear  #fcc100, #fcc100*/
+/* sumnit  #fcc100*/

@@ -10,12 +10,12 @@
     <div class="container">
         <div class="left-section">
             <button class="generate">Generate Secret Key</button>
-            <div id="secretKey">******</div>
+            <div id="secret-key">******</div>
         </div>
         <div class="right-section">
             <div class="display">
-                <span>Enter PIN:</span>
-                <input type="text" id="pinToMatch" readonly>
+                <span style="padding-top: 15px;">Enter PIN:</span>
+                <input type="text" class="pinToMatch" id="pinToMatch" readonly>
             </div>
             <div class="keypad">
                 <button class="key" data-value="1">1</button>
@@ -28,10 +28,10 @@
                 <button class="key" data-value="8">8</button>
                 <button class="key" data-value="9">9</button>
                 <button class="key" data-value="0">0</button>
-                <button class="key" id="clear">Clear</button>
-                <button class="key" id="submit">Submit</button>
+                <button class="key clear" id="clear">Clear</button>
+                <button class="key submit" id="submit">Submit</button>
             </div>
-            <div id="message-info"></div>
+            <div class="message" id="message-info"></div>
         </div>
     </div>
     <script src="scripts.js"></script>
