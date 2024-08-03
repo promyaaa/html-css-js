@@ -122,7 +122,7 @@ body {
 .message {
     margin-top: 20px;
     font-size: 18px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
 }
-
-/* clear  #fcc100, #fcc100*/
-/* sumnit  #fcc100*/

@@ -15,7 +15,7 @@
         <div class="right-section">
             <div class="display">
                 <span style="padding-top: 15px;">Enter PIN:</span>
-                <input type="text" class="pinToMatch" id="pinToMatch" readonly>
+                <input type="text" class="pinToMatch" id="pinToMatch" maxlength="6" readonly>
             </div>
             <div class="keypad">
                 <button class="key" data-value="1">1</button>
@@ -31,7 +31,7 @@
                 <button class="key clear" id="clear">Clear</button>
                 <button class="key submit" id="submit">Submit</button>
             </div>
-            <div class="message" id="message-info"></div>
+            <div class="message" id="notification"></div>
         </div>
     </div>
     <script src="scripts.js"></script>
