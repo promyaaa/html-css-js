@@ -103,6 +103,7 @@ body {
 .display {
     display: flex;
     color: black;
+    justify-content: space-between;
 }
 
 .display .pinToMatch {
