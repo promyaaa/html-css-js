@@ -12,6 +12,22 @@ document.addEventListener('DOMContentLoaded', function() {
         secretKey.textContent = secret;
     }
 
+    function clearInput() {
+        pinInput.value = '';
+    }
+
     generateBtn.addEventListener('click', generateSecretKey);
+
+    keys.forEach(key => {
+        key.addEventListener('click', function() {
+            if (this.id === 'clear') {
+                clearInput();
+            } else if (this.id === 'submit') {
+                // submit
+            } else {
+                // show number
+            }
+        });
+    });
 
 })
