@@ -83,9 +83,9 @@ body {
 }
 
 .key.submit {
-    background: #6CC788;
+    background: #0CC2AA;
     color: #fff;
-    border: 1px solid #60b078;
+    border: 1px solid #0bb69f;
 }
 .key.clear:hover {
     background-color: #d59d04;
@@ -93,7 +93,7 @@ body {
 }
 
 .key.submit:hover {
-    background: #60b078;
+    background: #0bb69f;
 }
 
 .key:hover {

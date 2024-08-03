@@ -44,10 +44,10 @@ document.addEventListener('DOMContentLoaded', function() {
             } else if (this.id === 'submit') {
                 //on click submit button 
                 comparePin();
-            }  else if (this.id === 'backspace') {
+            } else if (this.id === 'backspace') {
                 // Handle backspace functionality
                 pinInput.value = pinInput.value.slice(0, -1);
-            }else {
+            } else {
                 // show number
                 const newValue = pinInput.value + this.getAttribute('data-value');
                 pinInput.value = newValue.substring(0, 6);
